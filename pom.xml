@@ -39,7 +39,6 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:tasfik007/custom-pet-clinic.git</developerConnection>
-        <tag>HEAD</tag>
     </scm>
 
 </project>
