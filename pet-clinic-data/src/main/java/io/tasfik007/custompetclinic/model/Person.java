@@ -1,6 +1,6 @@
 package io.tasfik007.custompetclinic.model;
 
-public class Person {
+public class Person extends BaseEntity {
     private String firstName;
     private String lastName;
 
