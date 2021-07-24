@@ -1,11 +1,11 @@
 package io.tasfik007.custompetclinic.services.map;
 
 import io.tasfik007.custompetclinic.model.Vet;
-import io.tasfik007.custompetclinic.services.CrudService;
+import io.tasfik007.custompetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet,Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
