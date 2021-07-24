@@ -2,9 +2,11 @@ package io.tasfik007.custompetclinic.services.map;
 
 import io.tasfik007.custompetclinic.model.Owner;
 import io.tasfik007.custompetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements OwnerService {
     @Override
     public Set<Owner> findAll() {

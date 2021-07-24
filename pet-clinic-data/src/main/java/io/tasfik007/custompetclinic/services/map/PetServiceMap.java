@@ -2,9 +2,11 @@ package io.tasfik007.custompetclinic.services.map;
 
 import io.tasfik007.custompetclinic.model.Pet;
 import io.tasfik007.custompetclinic.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
